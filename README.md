@@ -1,50 +1,25 @@
-# VBA Homework - The VBA of Wall Street
+Used VBA scripting to analyze real stock market data in Excel for 2014-2016 as a homework assighnment for Data Analysis Bootcamp. 
+(Note: because of a limited size of Github repo the Excel file (~100 MB) isn`t included)
 
-## Background
+1. Created VBA script that looped through all the stocks for one year and output the following information:
 
-You are well on your way to becoming a programmer and Excel master! In this homework assignment you will use VBA scripting to analyze real stock market data. Depending on your comfort level with VBA, you may choose to challenge yourself with a few of the challenge tasks.
+     * The ticker symbol.
 
-### Before You Begin
+     * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
 
-1. Create a new repository for this project called `VBA-challenge`. **Do not add this homework to an existing repository**.
+     * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
 
-2. Inside the new repository that you just created, add any VBA files you use for this assignment. These will be the main scripts to run for each analysis.
+     * The total stock volume of the stock.
 
-### Files
+2. Used conditional formatting that highlighted positive change in green and negative change in red.
 
-* [Test Data](Resources/alphabetical_testing.xlsx) - Use this while developing your scripts.
+3. VBA script also is able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume".
 
-* [Stock Data](Resources/Multiple_year_stock_data.xlsx) - Run your scripts on this data to generate the final homework report.
-
-### Stock market analyst
-
-![stock Market](Images/stockmarket.jpg)
-
-## Instructions
-
-* Create a script that will loop through all the stocks for one year and output the following information.
-
-  * The ticker symbol.
-
-  * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
-
-  * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
-
-  * The total stock volume of the stock.
-
-* You should also have conditional formatting that will highlight positive change in green and negative change in red.
-
-* The result should look as follows.
-
-![moderate_solution](Images/moderate_solution.png)
-
-### CHALLENGES
-
-1. Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
-
-![hard_solution](Images/hard_solution.png)
-
-2. Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
+4. VBA script runs on every worksheet, i.e., every year, just by running the VBA script once.
 
 <img width="1285" alt="2014" src="https://user-images.githubusercontent.com/70668045/118865649-03020000-b896-11eb-8c95-d3e5c810f41c.png">
-<img width="1285" alt="2014" src="https://user-images.githubusercontent.com/70668045/118865681-0b5a3b00-b896-11eb-85a6-cd660261c9fa.png">
+
+<img width="1285" alt="2015" src="https://user-images.githubusercontent.com/70668045/118866407-d00c3c00-b896-11eb-8c05-468d4fe9ec72.png">
+
+<img width="1285" alt="2016" src="https://user-images.githubusercontent.com/70668045/118866423-d26e9600-b896-11eb-9494-72b7113fd848.png">
+
