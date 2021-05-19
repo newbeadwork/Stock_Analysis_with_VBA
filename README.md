@@ -1,4 +1,4 @@
-Used VBA scripting to analyze real stock market data in Excel for 2014-2016 as a homework assighnment for Data Analysis Bootcamp. 
+Used VBA scripting to analyze real stock market data in Excel for 2014-2016 as a homework assighnment for Data Analytics Bootcamp. 
 (Note: because of a limited size of Github repo the Excel file (~100 MB) isn`t included)
 
 1. Created VBA script that looped through all the stocks for one year and output the following information:
